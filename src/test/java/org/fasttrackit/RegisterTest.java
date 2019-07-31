@@ -15,8 +15,8 @@ public class RegisterTest {
         driver.get("https://fasttrackit.org/selenium-test/");
         WebElement accountButton = driver.findElement(By.cssSelector("#header > div > div.skip-links > div > a > span.label"));
         accountButton.click();
-        WebElement Register = driver.findElement(By.cssSelector("#header-account > div > ul > li:nth-child(5) > a"));
-        Register.click();
+        WebElement register = driver.findElement(By.cssSelector("#header-account > div > ul > li:nth-child(5) > a"));
+        register.click();
 
 
         driver.findElement(By.id("firstname")).sendKeys("dana");
